@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(orange, #fff, green);
+    background-attachment: fixed;
+    font-size: 20px;
+}
+
+form{
+    background-color: rgba(189, 197, 113, 0.205);
+    color: #fff;
+    margin: 0 20% 0 20%;
+    padding: 80px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 182, 193, 0.356);
+}
+
+h1, h2{
+    color: #ffffff;
+}
+h2{
+    font-style: italic;
+    font-family: MS Serif;
+}
+h1{
+    font-family: monospace;
+}
+
+.texttype{
+    background: rgba(255, 182, 193, 0.171);
+    margin-right: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    inline-size: none;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+select{
+    background: rgba(255, 182, 193, 0.171);
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    inline-size: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+textarea{
+    background: rgba(255, 182, 193, 0.171);
+    width: 100%;
+    height: 150px;
+    font-size: 1.5rem;
+    inline-size: none;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(144, 238, 144, 0.205);
+    cursor: pointer;
+}
